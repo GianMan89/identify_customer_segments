@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "identify-customer-segments"
+version = "0.1.0"
+description = "Identifying customer segments using unsupervised learning"
+authors = ["Gianluca Manca <gianluca.manca89@gmail.com>"]
+packages = [{include = "identify_customer_segments"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.1"
+pandas = "^2.0.3"
+scikit-learn = "^1.3.0"
+matplotlib = "^3.7.2"
+seaborn = "^0.12.2"
+ipykernel = "^6.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
